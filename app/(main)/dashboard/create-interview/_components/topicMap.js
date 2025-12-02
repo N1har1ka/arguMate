@@ -1,0 +1,55 @@
+// app/dashboard/_components/topicMap.js
+export const TOPIC_MAP = {
+  Technology: [
+    "Is AI a threat to human creativity?",
+    "Should governments regulate social media algorithms?",
+    "Is data privacy a myth in the digital era?",
+    "Will autonomous vehicles improve road safety?",
+    "Should tech firms be broken up to reduce monopoly power?",
+    "Is facial recognition an acceptable security tradeoff?",
+    "Will quantum computing change everyday life?",
+    "Should open-source be the default for critical infrastructure?",
+  ],
+  Politics: [
+    "Should voting be mandatory?",
+    "Is democracy the best form of government?",
+    "Do sanctions actually promote peace?",
+    "Should political campaigns be publicly funded?",
+    "Does gerrymandering destroy representative democracy?",
+    "Should term limits be imposed on elected officials?",
+    "Is direct democracy (referendums) dangerous?",
+    "Should international organizations have more power over nations?",
+  ],
+  Ethics: [
+    "Should animals have the same rights as humans?",
+    "Is it ethical to use AI for surveillance?",
+    "Should companies be allowed to use genetic data for research?",
+    "Is it ethical to edit human embryos?",
+    "Should there be limits on corporate free speech?",
+    "Is it wrong to prioritize national interest over refugees?",
+    "Should lethal autonomous weapons be banned?",
+    "Is it ethical to use targeted ads that exploit behavior?",
+  ],
+  Education: [
+    "Should AI be used as the primary teacher in elementary schools?",
+    "Does standardized testing help learning?",
+    "Are school uniforms beneficial to students?",
+    "Should coding be mandatory in school?",
+    "Is homework detrimental to learning?",
+    "Should universities be free?",
+    "Does online learning replace classroom learning?",
+    "Are grades a fair measure of student ability?",
+  ],
+  Economy: [
+    "Will automation create more meaningful jobs in the long run?",
+    "Should universal basic income be introduced?",
+    "Is globalization good for emerging economies?",
+    "Do high minimum wages hurt small businesses?",
+    "Should governments cancel student debt?",
+    "Are cryptocurrencies a stable investment?",
+    "Is stock market speculation harmful to the real economy?",
+    "Should taxes be increased for the wealthy?",
+  ],
+};
+export const FIELDS = Object.keys(TOPIC_MAP);
+
