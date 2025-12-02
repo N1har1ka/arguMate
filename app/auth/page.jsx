@@ -12,7 +12,7 @@ const Login = () => {
   const isDark = mode === "dark";
 
   const signInWithGoogle = async () => {
-    const production = true; // or false
+    const production = false; // or false
 
   const redirectUrl = production
     ? "https://argu-mate-hnz428wle-niharikas-projects-2566848e.vercel.app/auth/dashboard"
