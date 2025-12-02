@@ -12,10 +12,16 @@ const Login = () => {
   const isDark = mode === "dark";
 
   const signInWithGoogle = async () => {
+    const production = true; // or false
+
+  const redirectUrl = production
+    ? "https://argu-mate-hnz428wle-niharikas-projects-2566848e.vercel.app/auth/dashboard"
+    : "http://localhost:3000/dashboard";
+
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-      redirectTo: "http://localhost:3000/dashboard",
+      redirectTo:{ redirectTo: redirectUrl },
     },
     });
     if (error) {
